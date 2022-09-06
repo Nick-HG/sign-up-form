@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Barlow Semi Condensed';
+    font-size: 16px;
+    line-height: 1.5;
+    color: black;
+    background-color: #fff;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-container {
+    display: flex;
+    align-items: center;
+    height: 700px;
+    width: 80%;
+    border-radius: 1rem;
+    box-shadow: 0 0 15px 2px #ddd;
+    overflow: hidden;
+}
+
+/* Left side */
+.picture {
+    background-image: url("./images/ocean.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 35%;
+}
+ 
+.title {
+    margin-top: 30%;
+    background: rgba(0, 0, 0, 0.4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    color: #fff;
+    font-size: 1.5rem;
+}
+
