@@ -13,7 +13,6 @@
 <body>
 
 <div class="main-container">
-
     <div class="picture">
         <div class="title">
             <h1>Ocean Rescue Foundation</h1>
@@ -21,47 +20,57 @@
     </div>
     
     <main>
-        <form action="" method="get" class="call-to-action-form">
-            <!-- Name -->
-            <div class="form-row">
-                <label for="first-name">First Name</label>
-                <input type="text" id="first-name" name="first-name">
-                <br>
-                <label for="last-name">Last Name</label>
-                <input type="text" id="last-name" name="last-name">
-            </div>
-        
-            <!-- Email & phone number-->
-            <div class="form-row">
-                <label for="email">Email</label>
-                <input id="email"
-                    name="email" 
-                    type="email"
-                    placeholder="name@example.com"
-                    required>
-                <br>
-                <label for="phone-number">Phone Number</label>
-                <input type="number" name="phone-number" id="phone-number" min="11" max="11">
-            </div>
-        
-            <!-- Password -->
-            <div class="form-row">
-                <label for="password">Password</label>
-                <input type="password" name="password" id="password"  required>
-                <br>
-                <label for="password">Confirm Password</label>
-                <input type="password" name="confirm-password" id="confirm-password" required>        
-            </div>
-            
-            <!-- Create account button -->
-            <div class="form-row">
-                <button type="submit">Create Account</button>
-            </div>
-        </form>
-        <div class="log-in"><p>Already have an account?</p><a href="#">Log in.</a></div>
-        </div>    
-    </main>
+        <section class="description">
+            <p>Help us tackle marine pollution by signing our pledge to remove <strong><u>20% of all plastics</u></strong> in our oceans by 2050.</p>
+        </section>
 
+        <form action="#">
+            <div class="form-container">
+                <!-- Name -->
+                <fieldset>
+                    <div class="form-cell">
+                        <label for="first-name">First Name</label>
+                        <input type="text" id="first-name" name="first-name">
+                    </div>
+                    <div class="form-cell">
+                        <label for="last-name">Last Name</label>
+                        <input type="text" id="last-name" name="last-name">
+                    </div>
+                </fieldset>
+            <!-- Email & phone number-->
+                <fieldset>
+                    <div class="form-cell">
+                        <label for="email">Email</label>
+                        <input id="email"
+                            name="email" 
+                            type="email"
+                            placeholder="name@example.com"
+                            required>
+                    </div>
+                    <div class="form-cell">
+                        <label for="phone-number">Phone Number</label>
+                        <input type="number" name="phone-number" id="phone-number" min="11" max="11">
+                    </div>
+                </fieldset>
+                <!-- Password -->
+                <fieldset>
+                    <div class="form-cell">
+                        <label for="password">Password</label>
+                        <input type="password" name="password" id="password"  required>
+                    </div>
+                        <div class="form-cell">
+                        <label for="password">Confirm Password</label>
+                        <input type="password" name="confirm-password" id="confirm-password" required>        
+                    </div>
+                </fieldset>
+            </div> 
+            <div class="button-space">
+                <button type="submit">Create Account</button>
+                <div class="log-in"><p>Already have an account?</p><a href="#">Log in.</a></div>  
+            </div> 
+        </form>
+
+    </main>
 </div>
 
 
